@@ -1,0 +1,15 @@
+# ASMR-Dubber AutoFlow 设置。等号右侧不要添加引号。
+
+# ASMR Dubber 项目根目录。
+asmr_dubber_path=..\asmr-next
+
+# 和谐视频最终成品降低的分贝数。填写正数。
+harmonized_volume_reduction_db=10
+
+# 和谐视频及其字幕整体延后的分钟数，可以填写小数。
+harmonized_delay_minutes=20
+
+# “时间戳.txt”末尾的文字。留空即可删除对应行。
+timestamp_footer_line_1=双语音声制作器：BV1f43G6YEov
+timestamp_footer_line_2=内嵌字幕和配音为本地AI生成。内容仅供参考。
+timestamp_footer_line_3=仅供日语学习，有能力请购买正版支持。
