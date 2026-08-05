@@ -3,6 +3,21 @@
 # ASMR Dubber 项目根目录。
 asmr_dubber_path=..\asmr-next
 
+# 成品统一放进源作品文件夹下的这个子目录。源音频不会被改写。
+output_folder_name=AutoFlow输出
+
+# 成品组织方式：ask（每次询问）、merged（合并）、separate（分轨）、both（两者都要）。
+default_output_layout=ask
+
+# 同一作品同时提供多种音频格式时的优先顺序。
+preferred_audio_formats=wav,flac,ape,m4a,mp3
+
+# 特典、样本、Free Talk、闹钟等附加音轨：ask、include 或 exclude。
+bonus_policy=ask
+
+# 视频背景：auto（自动选封面/null 图片）或 black（始终黑色）。
+background_policy=auto
+
 # 和谐视频最终成品降低的分贝数。填写正数。
 harmonized_volume_reduction_db=10
 

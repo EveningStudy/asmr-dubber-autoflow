@@ -7,6 +7,7 @@ param(
 $ErrorActionPreference = "Stop"
 [Console]::OutputEncoding = New-Object System.Text.UTF8Encoding($false)
 $OutputEncoding = [Console]::OutputEncoding
+$env:PYTHONUTF8 = "1"
 
 $ToolRoot = $PSScriptRoot
 $Candidates = @()
